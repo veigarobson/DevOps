@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página HTML</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+    background: #e91e63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #c2185b;
+    padding: 12px;
+}
+
+.card {
+    background: #fce4ec;
+    padding: 15px;
+    border-left: 5px solid #e91e63;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c2185b;
+}
+
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        main {
+            flex: 3;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        aside {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .card {
+            background: #e3f2fd;
+            padding: 15px;
+            border-left: 5px solid #1565c0;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #1565c0;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0d47a1;
+        }
+
+        footer {
+            margin-top: 30px;
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Minha Página HTML</h1>
+    <p>Exemplo de estrutura completa em HTML5</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+
+    <main>
+
+        <h2>Bem-vindo!</h2>
+
+        <p>
+            Esta é uma página HTML de exemplo contendo os principais elementos
+            utilizados em um site moderno.
+        </p>
+
+        <div class="card">
+            <strong>Dica:</strong> HTML define a estrutura da página, CSS cuida
+            da aparência e JavaScript adiciona interatividade.
+        </div>
+
+        <h2>Formulário</h2>
+
+        <form>
+            <input type="text" placeholder="Seu nome">
+
+            <input type="email" placeholder="Seu e-mail">
+
+            <textarea rows="5" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+
+    </main>
+
+    <aside>
+
+        <h2>Barra Lateral</h2>
+
+        <ul>
+            <li>Notícia 1</li>
+            <li>Notícia 2</li>
+            <li>Notícia 3</li>
+            <li>Notícia 4</li>
+        </ul>
+
+    </aside>
+
+</div>
+
+<footer>
+    &copy; 2026 - Exemplo de Página HTML
+</footer>
+
+</body>
+</html>
